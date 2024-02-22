@@ -1,4 +1,4 @@
-name: CD-AWS test
+name: CD-AWS Test
 
 on:
   push:
