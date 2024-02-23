@@ -25,7 +25,8 @@ COPY .env.production .env.production
 #   fi
 # ENV NEXT_TELEMETRY_DISABLED 1
 
-RUN yarn clean && yarn build
+RUN yarn clean
+RUN yarn build
 
 
 FROM base AS runner
